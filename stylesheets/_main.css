@@ -1,0 +1,182 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.purple {
+  background-color: #4f3276;
+}
+.yellow {
+  background-color: #d4aa03;
+}
+.student-img {
+  padding-top: 57%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.student-img.one {
+  background-image: url("http://s23.postimg.org/lig63gfjv/Screen_Shot_2015_08_14_at_11_09_05_AM.png");
+}
+.student-img.two {
+  background-image: url("http://s23.postimg.org/9s28m2mrf/Screen_Shot_2015_08_14_at_11_08_41_AM.png");
+}
+.student-img.three {
+  background-image: url("http://s23.postimg.org/n7p9biv97/Screen_Shot_2015_08_14_at_11_10_11_AM.png");
+}
+.student-img.four {
+  background-image: url("http://s23.postimg.org/et9mnfu7v/Screen_Shot_2015_08_14_at_11_11_14_AM.png");
+}
+.col-img.one {
+  background-image: url("http://s23.postimg.org/k5yh1ki49/Screen_Shot_2015_08_14_at_11_07_38_AM.png");
+  padding-top: 57%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.col-img.one h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  -webkit-transform: scale(1, 2);
+}
+.top-nav-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 20px;
+}
+.nav-left {
+  padding-left: 15px;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nav-right {
+  padding-right: 15px;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.subheader {
+  text-align: center;
+  font-size: 4rem;
+  -webkit-transform: scale(1, 2);
+}
+.fa.fa-search {
+  font-size: 1.5rem;
+  padding-right: 2.5px;
+}
+.fa.fa-bars {
+  font-size: 1.5rem;
+  padding-right: 2.5px;
+}
+.col-img.footer {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.col-img.footer p {
+  max-width: 337px;
+  margin: auto;
+  color: #787878;
+}
+.student-img.one {
+  max-width: 250px;
+  max-height: 250px;
+  width: 20.8%;
+}
+.student-img.two {
+  max-width: 500px;
+}
+.student-img.three {
+  max-width: 500px;
+}
+.col-student.one {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.student-article.one {
+  max-width: 250px;
+  max-height: 345px;
+}
+.student-floating {
+  max-width: 500px;
+}
+.col-student.one {
+  background-color: #000;
+}
+.col-student.two {
+  background-color: #000;
+}
+.col-student.three {
+  background-color: #000;
+}
