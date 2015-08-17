@@ -33,7 +33,7 @@
             <div class="student-img one"></div>
             <div class="student-article one purple">
                 <h3>12:1</h3>
-                <p>Sit Fermentum<i class="fa fa-graduation-cap"></i></p>
+                <p class="grad-hat">Sit Fermentum<i class="fa fa-graduation-cap"></i></p>
                 <p>Praesent commodo cursus magna, vel scele risque nisl</p>
                 <button>See more lists</button>
             </div>
@@ -42,9 +42,15 @@
                 <div class="float-div student-quote">
                     <i class="fa fa-quote-left"></i>
                     <h6>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Egestas porta purus commodo.</h6>
-                    <h6>- Michael Case '14</h6>
-                    <p>AFRICANA MAJOR</p>
-                    <button>READ MORE</button>
+                    <div class="student-year-and-button-container">
+                        <div class="student-year-container">
+                            <h6>- Michael Case '14</h6>
+                            <p>  AFRICANA MAJOR</p>
+                        </div>
+                        <div class="button-container">
+                            <button>Read More</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="float-div student-img three arrow_box"></div>
                 <div class="float-div news purple">NEWS</div>
@@ -73,11 +79,11 @@
             </div>
             <div class="student-article three purple">
                 <h3>1,420</h3>
-                <p>Undergraduates</p>
-                <p><span>26%</span> students of color</p>
-                <p><span>11%</span> international</p>
-                <p><span>48%</span> states</p>
-                <p><span>51%</span> countries</p>
+                <p class="undergrads">Undergraduates <i class="fa fa-flask"></i></p>
+                <p class="student-nums">26% <span>students of color</span></p>
+                <p class="student-nums">11% <span>international</span></p>
+                <p class="student-nums">48% <span>states</span></p>
+                <p class="student-nums">51% <span>countries</span></p>
                 <button>About Undergrads</button>
             </div>
         </section>
@@ -88,63 +94,79 @@
         </section>
 
         <section class="col-student three">
-            <div class="student-article four"></div>
+            <div class="student-article four purple">
+                <h3>87</h3>
+                <p>List Title<i class="fa fa-list-ul"></i></p>
+                <button>See More Lists</button>
+            </div>
             <div class="student-img four"></div>
             <div class="student-article five">
                 <span class="events">EVENTS</span>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-                <a href="#"> SEE MORE UPCOMING</a>
+                <a href="#"> SEE MORE UPCOMING EVENTS</a>
             </div>
         </section>
 
 <!-- BOTTOM IMAGE -->
 
-        <section class="col-img three">
+        <section class="col-img four">
             <div class="img-overlay">
                 <p>Vestibulum id ligula porta felis euismod semper. <span>Campus Life</span>
                 </p>
-                <button>SEE MORE EVENTS</button>    
+                <button>See More Events</button>    
             </div>
         </section>
 
 <!-- FOOTER -->
 
         <footer class="footer purple">
-            <div class="logo-img"></div>
-            <div class="social-footer">
-                <p>FOLLOW KNOX</p>
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-flickr"></i>
+            <div class="logo-social-footer-container">
+                <div class="logo-img"></div>
+                <div class="social-footer">
+                    <p>Follow Knox</p>
+                    <div class="icons-container">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-flickr"></i>
+                    </div>
+                </div>
             </div>
-            <ul class"contact">
-                <li><span>CONTACT</span></li>
-                <li>Knox College</li>
-                <li>2 East South Street</li>
-                <li>Gatesburg, Illinois</li>
-                <li>61401-4999 USA</li>
-            </ul>
-            <span>VISIT GALESBURG <i class="fa fa-map-marker"></i></span>
-            <ul class"about">
-                <li><span>ABOUT KNOX</span></li>
-                <li>Fast Facts</li>
-                <li>Mission</li>
-                <li>Values</li>
-                <li>Leadership</li>
-                <li>KNox History</li>
-                <li>Leadership</li>
-            </ul>
-            <ul class="footer-links">
-                <li>EMPLOYMENT AT KNOX</li>
-                <li>CAMPUS DIRECTORY</li>
-                <li>EMERGENCY</li>
-                <li>EVENTS CALENDAR <span>5</span></li>
-                <li>NEWS <span>2</span></li>
-                <li>LIBRARY</li>
-                <li>FOR THE MEDIA</li>
-                <li>BOOKSTORE</li>
-                <li>A-Z INDEX</li>
-            </ul>
+            <div class="bottom-footer-text">
+                <div class="contact-about-info">
+                    <div class="contact-visit-container">
+                        <ul class="contact">
+                            <li><span>CONTACT</span></li>
+                            <li>Knox College</li>
+                            <li>2 East South Street</li>
+                            <li>Gatesburg, Illinois</li>
+                            <li>61401-4999 USA</li>
+                        </ul>
+                        <span>VISIT GALESBURG <i class="fa fa-map-marker"></i></span>
+                    </div>
+                    <ul class"about">
+                        <li><span>ABOUT KNOX</span></li>
+                        <li>Fast Facts</li>
+                        <li>Mission</li>
+                        <li>Values</li>
+                        <li>Leadership</li>
+                        <li>Knox History</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+                <ul class="footer-links">
+                    <li>EMPLOYMENT AT KNOX</li>
+                    <li>CAMPUS DIRECTORY</li>
+                    <li>EMERGENCY</li>
+                    <li>EVENTS CALENDAR <span>5</span></li>
+                    <li>NEWS <span>2</span></li>
+                </ul>
+                <ul class="footer-links-two">
+                    <li>LIBRARY</li>
+                    <li>FOR THE MEDIA</li>
+                    <li>BOOKSTORE</li>
+                    <li>A-Z INDEX</li>
+                </ul>
+            </div>
         </footer>
 
     </body>
