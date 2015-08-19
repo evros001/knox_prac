@@ -1,0 +1,51 @@
+.col-student.two, .col-student.three
+    +below(screensize)
+        min-height 0px
+        max-height 9999px
+
+.float-div.news
+    +below(1200px)
+        display none        
+        
+
+.student-article.three
+    +below(screensize)
+        width 100%
+        padding 1rem .5rem
+        display flex
+        justify-content space-around
+        h3
+            font-size 4.5rem
+
+.student-article.three .student-nums, .student-article.three button, .student-article.four, .col-img.three, .events
+    +below(screensize)
+        display none
+
+.undergrads
+    +below(screensize)
+        width 50%
+        
+.student-article.five p
+    +below(cellsize)
+        font-size 1.25rem
+    
+.student-img.four, .student-article.five
+    +below(screensize)
+        width 50%
+
+.col-img.four
+    +below(screensize)
+        width: 100%;
+        height: 60px;
+
+.img-overlay
+    +below(screensize)
+        margin-top -3rem
+        margin-right 1rem
+.img-overlay p
+    +below(screensize)
+        font-size .5rem
+
+.img-overlay button
+    +below(screensize)
+        font-size 1rem

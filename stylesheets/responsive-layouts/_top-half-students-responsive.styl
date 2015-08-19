@@ -1,0 +1,86 @@
+.col-student.one
+    +below(screensize)
+        max-height 9000px
+        .student-img.one, .student-article.one
+            display none
+        .student-floating
+            .news
+                display none
+        
+
+.col-img.two
+    +below(screensize)
+        display none
+
+.student-article.three
+    +below(screensize)
+        position static
+
+.student-article.two
+    +below(screensize)
+        display none
+
+.student-img.one, .student-article.one, .col-img.two, .student-article.two
+    +below(screensize)
+        display none
+
+.student-floating
+    +below(screensize)
+        margin 0
+        max-width 100%
+
+.student-img.three
+    +below(screensize)
+        max-width 100%
+
+.float-div
+    &.student-quote
+        +below(midsize)
+            padding 0
+
+.student-quote
+    h6
+        +below(midsize)
+            font-size 1rem
+    i
+        +below(screensize)
+            margin 4% 0 0 6%
+        
+.student-responsive-container
+    +below(screensize)
+        display flex
+
+.student-img.two
+    width 100%
+    height 100%
+        
+.student-year-container
+    h6, p
+        +below(midsize)
+            font-size .65rem
+
+.button-container
+    button
+        +below(midsize)
+            margin 10px 0 0 0
+            width 3rem
+            border-radius 10% 10% 10% 10%
+    button::after
+        +below(midsize)
+            content ">"
+            
+
+.student-year-and-button-container
+    +below(midsize)
+        justify-content space-around
+        padding 0
+
+.bottom
+    +below(cellsize)
+        padding 1.5rem 5%
+    h6
+        +below(cellsize)
+            font-size 1.25rem
+    p 
+        +below(cellsize)
+            line-height 1
