@@ -6,10 +6,23 @@
         <title>Knox College</title>
         <link rel="stylesheet" type="text/css" href="stylesheets/_main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <script src="//use.typekit.net/mjp0qwo.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
     </head>
     <body>
+
+<!-- TODO: Page should always be full-width -->
+<!-- TODO: Page should switch to mobile below 768 - may need to modify in between current breakpoint and 768 for tablet design adaptations -->
+<!-- TODO: Missing Sidebar/navbar (layer for design is in the PSD file) -->
+<!-- TODO: Fonts aren't showing for me (probably you've added them all appropriately, I just can't see them on my local) - but should be falling back to an appropriate font regardless (I'm getting a seriffed font instead of the system sans-serif) -->
+
+<!-- // TODO: Vendor prefixes automatically added - don't need '-webkit-' on anything, just the W3C name (just 'transform', for example)
+// TODO: Standardize typography - assess what a default h1-h6 + p + ul/ol should look like and put in _typography file. Will cause you to do less styling per element site-wide (will only have to modify things that vary from the default) -->
+
+
 
 <!-- TOP IMAGE -->
 
@@ -21,12 +34,43 @@
             </div>
             <h2 class="subheader">This is Knox</h2>
         </section>
+        
+        <section class="animated-nav">
+            <div class="animated-nav-close-container">
+                <button class="close-nav">Close</button>
+            </div>
+            <div class="animated-nav-list-container">
+                <ul class="animated-nav-main-list">
+                    <li><i class="fa fa-book"></i>Academics</li>
+                    <li><i class="fa fa-graduation-cap"></i>Admission</li>
+                    <li><i class="fa fa-building-o"></i>Campus Life</li>
+                    <li><i class="fa fa-globe"></i>After Knox</li>
+                    <li><i class="fa fa-university"></i>Support Knox</li>
+                    <li><i class="fa fa-futbol-o"></i>Athletics</li>
+                    <li><i class="fa fa-calendar"></i>Upcoming Events <span>1</span></li>
+                    <li><i class="fa fa-newspaper-o"></i>News <span>9</span></li>
+                </ul>
+                <ul class="animated-nav-sub-list">
+                    <li><i class="fa fa-graduation-cap"></i>Alumni</li>
+                    <li><i class="fa fa-user"></i>Parents</li>
+                    <li><i class="fa fa-cog"></i>My Knox</li>
+                </ul>
+                <div class="animated-nav-social-container">
+                    <h3 class="animated-nav-social-title">Connect With Knox</h3>
+                    <div class="animated-nav-icons-container">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-flickr"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 <!-- SUBTITLE -->
 
         <section class="col-img footer">
             <p>Knox is a small liberal arts college in Galesburg, Illinois</p>
-            <a href="#">LEARN ABOUT KNOX</a>
+            <a href="#">LEARN ABOUT KNOX</a>=
         </section>
 
 <!-- STUDENTS ONE -->
@@ -65,6 +109,7 @@
                 </div>
             </section>
         </section>
+
 
 
 <!-- MIDDLE IMG 1 -->
@@ -172,6 +217,6 @@
                 </ul>
             </div>
         </footer>
-
+        <script src="js/menu.js"></script>
     </body>
 </html>
